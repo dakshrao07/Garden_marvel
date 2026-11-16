@@ -46,7 +46,7 @@ const gust=()=>{wind=4;document.body.classList.add('windy');setTimeout(()=>{wind
 
 // ---------- story ----------
 let taps=0,busy=false;
-const MSG="Disha ji 🌸 Avengers ne poore universe bachaye, par mera universe toh bas aap hain. Marvel ki sabse deep love story jaisi... She is that for me 💖";
+const MSG="Disha ji 🌸 Avengers ne poore universe bachaye, par mera universe toh bas aap hain. Marvel ki sabse deep love story jaisi... forever U 💖";
 async function type(el,t){el.textContent='';for(const ch of t){el.textContent+=ch;await sleep(38)}}
 
 $('intro').addEventListener('pointerdown',async e=>{
